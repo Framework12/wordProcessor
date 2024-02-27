@@ -1,0 +1,65 @@
+.word-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.word-toolbar {
+  margin-bottom: 50px;
+}
+
+.word-label {
+  margin-right: 10px;
+}
+
+.word-input,
+.word-select {
+  width: 50px;
+  margin: 20px;
+  background-color: rgba(128, 128, 128, 0.063);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.word-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.word-button:hover {
+  background-color: #0056b3;
+}
+
+.word-button-group {
+  display: inline-block;
+}
+
+.word-textarea {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #7f7f7f80;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.word-processor-preview-container {
+  margin-bottom: 10px;
+}
+
+.word-processor-heading {
+  margin-bottom: 10px;
+}
+
+.word-count {
+  font-weight: bold;
+}
